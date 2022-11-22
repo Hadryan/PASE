@@ -16,7 +16,6 @@ include $(PGXS)
 else
 subdir = external/pase
 top_builddir = ../..
-include $(top_builddir)/src/Makefile.global
 endif
 
 perl-check:
